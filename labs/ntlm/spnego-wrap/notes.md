@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2021-06-27_
+_2021-06-28_
 
 ## setup
 - proxychains + burp chained
