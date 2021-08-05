@@ -1,6 +1,6 @@
 # acls: own-outbound
 
-_2021-08-02_
+_2021-08-05_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -9,8 +9,6 @@ _2021-08-02_
 - f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
