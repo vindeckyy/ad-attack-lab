@@ -1,14 +1,14 @@
 # ntlm: smb-relay-adcs
 
-_2021-08-04_
+_2021-08-05_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- follow up on relay chain
+- write detection rule for the fp case
