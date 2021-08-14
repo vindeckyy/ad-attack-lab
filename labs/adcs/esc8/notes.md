@@ -1,6 +1,6 @@
 # adcs: esc8
 
-_2021-08-13_
+_2021-08-14_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
@@ -8,8 +8,6 @@ _2021-08-13_
 - new vpnsplit setup for the lab
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
