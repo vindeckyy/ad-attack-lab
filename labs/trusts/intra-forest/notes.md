@@ -1,10 +1,11 @@
 # trusts: intra-forest
 
-_2021-08-12_
+_2021-08-14_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2021-08-12_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
