@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2021-09-03_
+_2021-09-04_
 
 ## setup
 - kali vm snapshot rolled back
