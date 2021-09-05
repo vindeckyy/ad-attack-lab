@@ -1,11 +1,10 @@
 # ntlm: smb-relay-adcs
 
-_2021-09-03_
+_2021-09-05_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2021-09-03_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
