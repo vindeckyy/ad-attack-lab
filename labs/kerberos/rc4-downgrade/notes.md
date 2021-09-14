@@ -1,10 +1,11 @@
 # kerberos: rc4-downgrade
 
-_2021-09-12_
+_2021-09-14_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - gpp leftovers on legacy OU
@@ -14,3 +15,4 @@ _2021-09-12_
 
 ## next
 - write detection rule for the fp case
+- map remaining acls in bloodhound
