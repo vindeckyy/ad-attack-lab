@@ -1,10 +1,12 @@
 # acls: writedacl-esc
 
-_2021-09-24_
+_2021-09-26_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -15,3 +17,5 @@ _2021-09-24_
 
 ## next
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
+- test coercion from workstation context
