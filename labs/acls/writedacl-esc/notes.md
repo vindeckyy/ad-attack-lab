@@ -1,10 +1,12 @@
 # acls: writedacl-esc
 
-_2021-09-29_
+_2021-10-01_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +14,5 @@ _2021-09-29_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
+- write detection rule for the fp case
