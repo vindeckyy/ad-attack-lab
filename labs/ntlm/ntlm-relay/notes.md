@@ -1,16 +1,15 @@
 # ntlm: ntlm-relay
 
-_2021-10-05_
+_2021-10-06_
 
 ## setup
-- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- check for unconstrained delegation hosts
