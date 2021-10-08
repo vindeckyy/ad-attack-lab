@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2021-10-07_
+_2021-10-08_
 
 ## setup
 - kali vm snapshot rolled back
