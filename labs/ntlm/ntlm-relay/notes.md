@@ -1,10 +1,11 @@
 # ntlm: ntlm-relay
 
-_2021-10-06_
+_2021-10-08_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
 - host header injection poisons cache
@@ -13,3 +14,4 @@ _2021-10-06_
 
 ## next
 - check for unconstrained delegation hosts
+- follow up on relay chain
