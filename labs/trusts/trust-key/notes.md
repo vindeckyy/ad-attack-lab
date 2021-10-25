@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2021-10-22_
+_2021-10-24_
 
 ## setup
 - new vpnsplit setup for the lab
