@@ -1,15 +1,18 @@
 # acls: writedacl-esc
 
-_2021-10-28_
+_2021-10-29_
 
 ## setup
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
+- retest after patch window
 - check for unconstrained delegation hosts
