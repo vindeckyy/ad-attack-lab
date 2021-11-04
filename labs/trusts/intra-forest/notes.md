@@ -1,11 +1,10 @@
 # trusts: intra-forest
 
-_2021-11-02_
+_2021-11-03_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2021-11-02_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
