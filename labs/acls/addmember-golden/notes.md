@@ -5,7 +5,6 @@ _2021-11-12_
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -16,4 +15,3 @@ _2021-11-12_
 
 ## next
 - ask IT about legacy OU cleanup
-- try esc4 template misconfig
