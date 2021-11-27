@@ -1,6 +1,6 @@
 # trusts: intra-forest
 
-_2021-11-24_
+_2021-11-26_
 
 ## setup
 - new vpnsplit setup for the lab
