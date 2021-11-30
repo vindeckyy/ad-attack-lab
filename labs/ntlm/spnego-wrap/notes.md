@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2021-11-29_
+_2021-11-30_
 
 ## setup
 - kali vm snapshot rolled back
