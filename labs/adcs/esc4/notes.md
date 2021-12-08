@@ -1,14 +1,16 @@
 # adcs: esc4
 
-_2021-12-03_
+_2021-12-08_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
+- retest after patch window
+- check for unconstrained delegation hosts
