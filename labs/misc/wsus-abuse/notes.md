@@ -1,6 +1,6 @@
 # misc: wsus-abuse
 
-_2021-12-06_
+_2021-12-08_
 
 ## setup
 - mitm6 paired with ntlmrelayx
