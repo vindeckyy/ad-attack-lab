@@ -1,17 +1,14 @@
 # kerberos: rc4-downgrade
 
-_2021-12-13_
+_2021-12-14_
 
 ## setup
+- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- check for unconstrained delegation hosts
 - follow up on relay chain
