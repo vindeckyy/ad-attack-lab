@@ -1,10 +1,11 @@
 # adcs: esc8
 
-_2021-12-28_
+_2021-12-29_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2021-12-28_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
