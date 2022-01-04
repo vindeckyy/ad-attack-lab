@@ -1,15 +1,17 @@
 # ntlm: responder-poison
 
-_2022-01-01_
+_2022-01-03_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
+- ask IT about legacy OU cleanup
