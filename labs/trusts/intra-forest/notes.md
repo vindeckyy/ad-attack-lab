@@ -1,18 +1,14 @@
 # trusts: intra-forest
 
-_2022-01-14_
+_2022-01-15_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
 - try esc4 template misconfig
