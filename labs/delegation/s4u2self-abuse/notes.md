@@ -1,11 +1,10 @@
 # delegation: s4u2self-abuse
 
-_2022-01-18_
+_2022-01-19_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -14,4 +13,3 @@ _2022-01-18_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
