@@ -1,11 +1,10 @@
 # acls: addmember-golden
 
-_2022-02-12_
+_2022-02-15_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
 - jwt accepts none alg
@@ -15,4 +14,3 @@ _2022-02-12_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
