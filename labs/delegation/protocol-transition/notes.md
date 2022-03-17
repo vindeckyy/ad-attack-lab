@@ -1,14 +1,16 @@
 # delegation: protocol-transition
 
-_2022-03-14_
+_2022-03-17_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- sweep ipv6 for live hosts
+- test coercion from workstation context
