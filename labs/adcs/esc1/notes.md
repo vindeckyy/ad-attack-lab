@@ -1,16 +1,17 @@
 # adcs: esc1
 
-_2022-03-20_
+_2022-03-22_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
+- check for unconstrained delegation hosts
+- follow up on relay chain
