@@ -1,11 +1,12 @@
 # ntlm: responder-poison
 
-_2022-03-28_
+_2022-03-30_
 
 ## setup
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - gpp leftovers on legacy OU
@@ -16,3 +17,4 @@ _2022-03-28_
 ## next
 - write detection rule for the fp case
 - map remaining acls in bloodhound
+- sweep ipv6 for live hosts
