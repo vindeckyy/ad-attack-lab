@@ -1,15 +1,14 @@
 # delegation: unconstrained
 
-_2022-04-03_
+_2022-04-04_
 
 ## setup
-- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- test coercion from workstation context
+- sweep ipv6 for live hosts
