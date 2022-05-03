@@ -1,15 +1,14 @@
 # acls: genericall-da
 
-_2022-04-29_
+_2022-05-03_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- test coercion from workstation context
+- write detection rule for the fp case
