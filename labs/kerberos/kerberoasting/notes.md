@@ -1,19 +1,16 @@
 # kerberos: kerberoasting
 
-_2022-05-02_
+_2022-05-03_
 
 ## setup
+- new vpnsplit setup for the lab
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- pull sccm http creds if time allows
 - write detection rule for the fp case
 - map remaining acls in bloodhound
