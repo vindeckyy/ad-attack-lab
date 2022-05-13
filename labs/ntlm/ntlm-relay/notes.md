@@ -1,10 +1,11 @@
 # ntlm: ntlm-relay
 
-_2022-05-11_
+_2022-05-12_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2022-05-11_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
