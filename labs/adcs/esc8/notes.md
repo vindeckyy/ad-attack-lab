@@ -1,11 +1,10 @@
 # adcs: esc8
 
-_2022-05-11_
+_2022-05-14_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -16,4 +15,3 @@ _2022-05-11_
 
 ## next
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
