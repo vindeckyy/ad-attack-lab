@@ -1,6 +1,6 @@
 # delegation: constrained
 
-_2022-06-01_
+_2022-06-02_
 
 ## setup
 - kali vm snapshot rolled back
