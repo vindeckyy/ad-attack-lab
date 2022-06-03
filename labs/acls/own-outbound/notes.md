@@ -1,16 +1,16 @@
 # acls: own-outbound
 
-_2022-05-31_
+_2022-06-03_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- follow up on relay chain
+- ask IT about legacy OU cleanup
