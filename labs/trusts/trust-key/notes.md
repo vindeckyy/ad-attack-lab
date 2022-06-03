@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2022-05-31_
+_2022-06-03_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
@@ -9,6 +9,8 @@ _2022-05-31_
 - nmap scripts updated from master
 
 ## findings
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
