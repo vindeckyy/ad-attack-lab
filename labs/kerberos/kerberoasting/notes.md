@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2022-06-28_
+_2022-06-29_
 
 ## setup
 - proxychains + burp chained
