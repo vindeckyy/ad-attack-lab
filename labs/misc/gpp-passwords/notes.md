@@ -1,19 +1,16 @@
 # misc: gpp-passwords
 
-_2022-06-26_
+_2022-07-04_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- write detection rule for the fp case
