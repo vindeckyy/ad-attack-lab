@@ -1,6 +1,6 @@
 # acls: own-outbound
 
-_2022-07-01_
+_2022-07-04_
 
 ## setup
 - proxychains + burp chained
