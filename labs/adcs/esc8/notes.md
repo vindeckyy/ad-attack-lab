@@ -1,17 +1,16 @@
 # adcs: esc8
 
-_2022-06-28_
+_2022-07-08_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- check for unconstrained delegation hosts
+- write detection rule for the fp case
+- map remaining acls in bloodhound
