@@ -1,10 +1,11 @@
 # kerberos: asreproast
 
-_2022-07-19_
+_2022-07-23_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2022-07-19_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
