@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2022-08-02_
+_2022-08-04_
 
 ## setup
 - proxychains + burp chained
@@ -8,6 +8,8 @@ _2022-08-02_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
