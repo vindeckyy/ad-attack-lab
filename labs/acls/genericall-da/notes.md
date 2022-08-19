@@ -1,6 +1,6 @@
 # acls: genericall-da
 
-_2022-08-16_
+_2022-08-18_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,6 +9,8 @@ _2022-08-16_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
