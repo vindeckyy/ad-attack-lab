@@ -1,18 +1,15 @@
 # misc: wsus-abuse
 
-_2022-08-17_
+_2022-08-21_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- ask IT about legacy OU cleanup
