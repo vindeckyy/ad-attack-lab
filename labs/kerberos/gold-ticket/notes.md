@@ -1,10 +1,11 @@
 # kerberos: gold-ticket
 
-_2022-08-20_
+_2022-08-24_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2022-08-20_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
