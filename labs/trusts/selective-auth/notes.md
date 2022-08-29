@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2022-08-26_
+_2022-08-29_
 
 ## setup
 - nmap scripts updated from master
