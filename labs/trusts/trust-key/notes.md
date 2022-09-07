@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2022-09-04_
+_2022-09-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
