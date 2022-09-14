@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2022-09-07_
+_2022-09-13_
 
 ## setup
 - wsl network tweaks applied
