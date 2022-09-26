@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2022-09-21_
+_2022-09-26_
 
 ## setup
 - proxychains + burp chained
