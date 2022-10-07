@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2022-10-06_
+_2022-10-07_
 
 ## setup
 - kali vm snapshot rolled back
