@@ -1,11 +1,10 @@
 # kerberos: rc4-downgrade
 
-_2022-11-02_
+_2022-11-09_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2022-11-02_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
