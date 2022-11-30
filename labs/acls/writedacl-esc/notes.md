@@ -1,11 +1,10 @@
 # acls: writedacl-esc
 
-_2022-11-26_
+_2022-11-29_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 
 ## findings
 - dns rebinding blocked at resolver
@@ -14,4 +13,3 @@ _2022-11-26_
 
 ## next
 - test coercion from workstation context
-- retest after patch window
