@@ -1,17 +1,16 @@
 # kerberos: asreproast
 
-_2022-12-04_
+_2022-12-06_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
