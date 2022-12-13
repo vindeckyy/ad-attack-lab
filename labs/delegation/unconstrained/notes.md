@@ -1,18 +1,14 @@
 # delegation: unconstrained
 
-_2022-12-03_
+_2022-12-13_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
+- try esc4 template misconfig
