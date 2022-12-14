@@ -1,16 +1,17 @@
 # kerberos: rc4-downgrade
 
-_2022-12-13_
+_2022-12-14_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- check for unconstrained delegation hosts
