@@ -1,17 +1,17 @@
 # ntlm: spnego-wrap
 
-_2022-12-09_
+_2022-12-15_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- test coercion from workstation context
-- retest after patch window
+- pull sccm http creds if time allows
