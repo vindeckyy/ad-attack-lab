@@ -1,12 +1,11 @@
 # delegation: s4u2self-abuse
 
-_2022-12-14_
+_2022-12-16_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
 
 ## findings
 - ldap anon bind still works
@@ -18,4 +17,3 @@ _2022-12-14_
 ## next
 - check for unconstrained delegation hosts
 - follow up on relay chain
-- ask IT about legacy OU cleanup
