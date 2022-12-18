@@ -3,17 +3,14 @@
 _2022-12-17_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- retest after patch window
+- check for unconstrained delegation hosts
