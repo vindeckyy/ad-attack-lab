@@ -1,17 +1,19 @@
 # kerberos: rc4-downgrade
 
-_2022-12-19_
+_2022-12-20_
 
 ## setup
+- proxychains + burp chained
+- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- check for unconstrained delegation hosts
-- follow up on relay chain
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
