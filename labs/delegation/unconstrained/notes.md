@@ -1,17 +1,19 @@
 # delegation: unconstrained
 
-_2022-12-20_
+_2022-12-21_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- ask IT about legacy OU cleanup
+- test coercion from workstation context
+- retest after patch window
