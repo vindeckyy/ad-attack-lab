@@ -1,6 +1,6 @@
 # adcs: esc6
 
-_2022-12-21_
+_2022-12-22_
 
 ## setup
 - responder listening on the test vlan
@@ -9,8 +9,6 @@ _2022-12-21_
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
