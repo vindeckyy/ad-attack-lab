@@ -1,16 +1,16 @@
 # trusts: sid-history
 
-_2022-12-23_
+_2022-12-31_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
+- map remaining acls in bloodhound
