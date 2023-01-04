@@ -1,10 +1,11 @@
 # adcs: esc3
 
-_2022-12-31_
+_2023-01-04_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -12,3 +13,4 @@ _2022-12-31_
 
 ## next
 - sweep ipv6 for live hosts
+- test coercion from workstation context
