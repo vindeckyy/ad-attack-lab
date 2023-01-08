@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2023-01-05_
+_2023-01-07_
 
 ## setup
 - new vpnsplit setup for the lab
