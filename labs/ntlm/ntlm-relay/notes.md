@@ -1,15 +1,15 @@
 # ntlm: ntlm-relay
 
-_2023-01-14_
+_2023-01-15_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
+- ask IT about legacy OU cleanup
