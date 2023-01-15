@@ -1,19 +1,17 @@
 # delegation: constrained
 
-_2023-01-14_
+_2023-01-15_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
