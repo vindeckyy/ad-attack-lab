@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2023-01-12_
+_2023-01-16_
 
 ## setup
 - fresh windows server 2019 box in the lab
