@@ -1,16 +1,16 @@
 # misc: sccm-http
 
-_2023-01-14_
+_2023-01-15_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
+- write detection rule for the fp case
+- map remaining acls in bloodhound
