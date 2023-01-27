@@ -1,19 +1,17 @@
 # delegation: unconstrained
 
-_2023-01-25_
+_2023-01-26_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- test coercion from workstation context
-- retest after patch window
-- check for unconstrained delegation hosts
+- ask IT about legacy OU cleanup
