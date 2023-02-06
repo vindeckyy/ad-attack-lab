@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2023-02-02_
+_2023-02-06_
 
 ## setup
 - responder listening on the test vlan
