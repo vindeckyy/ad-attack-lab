@@ -1,14 +1,18 @@
 # ntlm: responder-poison
 
-_2023-02-05_
+_2023-02-07_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
+- write detection rule for the fp case
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
