@@ -1,21 +1,21 @@
 # adcs: esc8
 
-_2023-02-07_
+_2023-02-08_
 
 ## setup
+- nmap scripts updated from master
+- responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
 - pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
