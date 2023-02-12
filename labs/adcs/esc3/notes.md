@@ -1,6 +1,6 @@
 # adcs: esc3
 
-_2023-02-01_
+_2023-02-12_
 
 ## setup
 - kali vm snapshot rolled back
@@ -9,6 +9,8 @@ _2023-02-01_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
