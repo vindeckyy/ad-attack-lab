@@ -1,17 +1,18 @@
 # ntlm: spnego-wrap
 
-_2023-02-13_
+_2023-02-16_
 
 ## setup
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
