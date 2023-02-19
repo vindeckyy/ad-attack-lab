@@ -1,15 +1,15 @@
 # trusts: intra-forest
 
-_2023-02-18_
+_2023-02-19_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- ask IT about legacy OU cleanup
+- test coercion from workstation context
