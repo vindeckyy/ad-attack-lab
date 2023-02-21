@@ -1,20 +1,18 @@
 # trusts: sid-history
 
-_2023-02-20_
+_2023-02-21_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- retest after patch window
+- check for unconstrained delegation hosts
