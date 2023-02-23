@@ -1,15 +1,14 @@
 # delegation: constrained
 
-_2023-02-22_
+_2023-02-23_
 
 ## setup
+- f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
