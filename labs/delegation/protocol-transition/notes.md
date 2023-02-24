@@ -3,12 +3,12 @@
 _2023-02-24_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- follow up on relay chain
+- sweep ipv6 for live hosts
