@@ -1,17 +1,17 @@
 # adcs: esc1
 
-_2023-02-22_
+_2023-02-24_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
