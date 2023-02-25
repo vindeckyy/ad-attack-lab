@@ -1,14 +1,16 @@
 # kerberos: kerberoasting
 
-_2023-02-19_
+_2023-02-24_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
