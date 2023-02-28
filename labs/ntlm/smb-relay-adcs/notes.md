@@ -1,18 +1,19 @@
 # ntlm: smb-relay-adcs
 
-_2023-02-26_
+_2023-02-28_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
+- snmp community 'public' read-all
 - rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- test coercion from workstation context
+- retest after patch window
