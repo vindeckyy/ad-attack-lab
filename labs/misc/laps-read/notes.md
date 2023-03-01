@@ -1,17 +1,21 @@
 # misc: laps-read
 
-_2023-02-24_
+_2023-03-01_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
+- pull sccm http creds if time allows
