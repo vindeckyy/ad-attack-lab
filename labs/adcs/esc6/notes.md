@@ -1,11 +1,10 @@
 # adcs: esc6
 
-_2023-02-27_
+_2023-03-01_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2023-02-27_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
