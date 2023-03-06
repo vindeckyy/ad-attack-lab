@@ -1,18 +1,21 @@
 # ntlm: ntlm-relay
 
-_2023-03-04_
+_2023-03-06_
 
 ## setup
+- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
 - pull sccm http creds if time allows
+- write detection rule for the fp case
+- map remaining acls in bloodhound
