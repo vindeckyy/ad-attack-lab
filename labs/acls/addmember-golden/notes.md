@@ -1,16 +1,15 @@
 # acls: addmember-golden
 
-_2023-03-05_
+_2023-03-07_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
+- ask IT about legacy OU cleanup
