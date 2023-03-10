@@ -1,14 +1,19 @@
 # misc: laps-read
 
-_2023-03-07_
+_2023-03-10_
 
 ## setup
-- responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
+- ask IT about legacy OU cleanup
 - try esc4 template misconfig
