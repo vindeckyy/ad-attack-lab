@@ -1,17 +1,18 @@
 # adcs: esc3
 
-_2023-03-13_
+_2023-03-14_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- sweep ipv6 for live hosts
+- test coercion from workstation context
