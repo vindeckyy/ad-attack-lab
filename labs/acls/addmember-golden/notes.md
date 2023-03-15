@@ -1,18 +1,18 @@
 # acls: addmember-golden
 
-_2023-03-13_
+_2023-03-15_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- sweep ipv6 for live hosts
+- test coercion from workstation context
