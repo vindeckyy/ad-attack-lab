@@ -1,17 +1,17 @@
 # ntlm: coercion-petitpotam
 
-_2023-03-11_
+_2023-03-14_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- check for unconstrained delegation hosts
+- ask IT about legacy OU cleanup
