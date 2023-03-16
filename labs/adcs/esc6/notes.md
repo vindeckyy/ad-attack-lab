@@ -1,19 +1,19 @@
 # adcs: esc6
 
-_2023-03-15_
+_2023-03-16_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- check for unconstrained delegation hosts
-- follow up on relay chain
-- ask IT about legacy OU cleanup
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
+- test coercion from workstation context
