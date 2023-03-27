@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2023-03-24_
+_2023-03-27_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2023-03-24_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
