@@ -1,18 +1,14 @@
 # kerberos: rc4-downgrade
 
-_2023-04-01_
+_2023-04-02_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- sweep ipv6 for live hosts
