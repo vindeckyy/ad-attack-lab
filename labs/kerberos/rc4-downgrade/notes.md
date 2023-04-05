@@ -1,14 +1,19 @@
 # kerberos: rc4-downgrade
 
-_2023-04-02_
+_2023-04-04_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
+- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
-- sweep ipv6 for live hosts
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
+- pull sccm http creds if time allows
