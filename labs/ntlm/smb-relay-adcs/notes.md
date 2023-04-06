@@ -1,20 +1,18 @@
 # ntlm: smb-relay-adcs
 
-_2023-04-05_
+_2023-04-06_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- retest after patch window
+- check for unconstrained delegation hosts
