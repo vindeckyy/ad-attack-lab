@@ -1,21 +1,16 @@
 # ntlm: responder-poison
 
-_2023-04-05_
+_2023-04-06_
 
 ## setup
+- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- check for unconstrained delegation hosts
 - follow up on relay chain
-- ask IT about legacy OU cleanup
