@@ -1,21 +1,21 @@
 # acls: addmember-golden
 
-_2023-04-02_
+_2023-04-07_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- check for unconstrained delegation hosts
+- follow up on relay chain
+- ask IT about legacy OU cleanup
