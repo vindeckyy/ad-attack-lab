@@ -9,6 +9,8 @@ _2023-04-09_
 - nmap scripts updated from master
 
 ## findings
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
