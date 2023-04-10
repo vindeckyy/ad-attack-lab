@@ -1,18 +1,14 @@
 # ntlm: ntlm-relay
 
-_2023-04-09_
+_2023-04-10_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- retest after patch window
