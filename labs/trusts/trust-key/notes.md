@@ -1,17 +1,17 @@
 # trusts: trust-key
 
-_2023-04-13_
+_2023-04-14_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- test coercion from workstation context
-- retest after patch window
+- pull sccm http creds if time allows
+- write detection rule for the fp case
