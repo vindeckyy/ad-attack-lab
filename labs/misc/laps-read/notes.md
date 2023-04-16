@@ -1,19 +1,14 @@
 # misc: laps-read
 
-_2023-04-14_
+_2023-04-16_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
