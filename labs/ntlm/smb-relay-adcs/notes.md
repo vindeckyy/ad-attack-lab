@@ -1,16 +1,19 @@
 # ntlm: smb-relay-adcs
 
-_2023-04-17_
+_2023-04-19_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
