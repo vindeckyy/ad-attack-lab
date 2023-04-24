@@ -1,17 +1,16 @@
 # trusts: trust-key
 
-_2023-04-23_
+_2023-04-24_
 
 ## setup
-- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- test coercion from workstation context
-- retest after patch window
+- sweep ipv6 for live hosts
