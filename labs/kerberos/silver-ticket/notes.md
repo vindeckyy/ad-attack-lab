@@ -1,16 +1,20 @@
 # kerberos: silver-ticket
 
-_2023-04-14_
+_2023-04-25_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
+- try esc4 template misconfig
+- pull sccm http creds if time allows
 - write detection rule for the fp case
