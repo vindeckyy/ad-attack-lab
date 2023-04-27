@@ -1,16 +1,16 @@
 # acls: genericall-da
 
-_2023-04-24_
+_2023-04-26_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- follow up on relay chain
+- sweep ipv6 for live hosts
