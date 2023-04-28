@@ -1,16 +1,16 @@
 # adcs: esc3
 
-_2023-04-27_
+_2023-04-28_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- retest after patch window
+- check for unconstrained delegation hosts
