@@ -1,17 +1,14 @@
 # trusts: selective-auth
 
-_2023-04-24_
+_2023-04-28_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- try esc4 template misconfig
