@@ -1,20 +1,17 @@
 # trusts: sid-history
 
-_2023-05-01_
+_2023-05-02_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- check for unconstrained delegation hosts
+- follow up on relay chain
