@@ -1,16 +1,16 @@
 # acls: forcechangepw
 
-_2023-05-01_
+_2023-05-02_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- retest after patch window
+- try esc4 template misconfig
+- pull sccm http creds if time allows
