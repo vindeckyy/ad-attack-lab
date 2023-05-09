@@ -1,17 +1,16 @@
 # misc: wsus-abuse
 
-_2023-05-07_
+_2023-05-08_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- pull sccm http creds if time allows
+- follow up on relay chain
+- ask IT about legacy OU cleanup
