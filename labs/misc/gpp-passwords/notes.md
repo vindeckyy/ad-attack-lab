@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2023-05-11_
+_2023-05-12_
 
 ## setup
 - fresh windows server 2019 box in the lab
@@ -9,6 +9,8 @@ _2023-05-11_
 - wsl network tweaks applied
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
