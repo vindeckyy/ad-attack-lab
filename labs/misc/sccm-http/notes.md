@@ -1,18 +1,18 @@
 # misc: sccm-http
 
-_2023-05-15_
+_2023-05-16_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
-- follow up on relay chain
+- sweep ipv6 for live hosts
+- test coercion from workstation context
