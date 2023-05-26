@@ -1,6 +1,6 @@
 # delegation: protocol-transition
 
-_2023-05-22_
+_2023-05-26_
 
 ## setup
 - new vpnsplit setup for the lab
