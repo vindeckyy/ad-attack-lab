@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2023-05-25_
+_2023-05-26_
 
 ## setup
 - target: internal lab 10.0.20.0/24
