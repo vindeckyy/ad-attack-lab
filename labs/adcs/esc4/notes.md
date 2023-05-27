@@ -1,14 +1,15 @@
 # adcs: esc4
 
-_2023-05-26_
+_2023-05-27_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- map remaining acls in bloodhound
