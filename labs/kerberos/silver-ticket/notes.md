@@ -1,11 +1,12 @@
 # kerberos: silver-ticket
 
-_2023-06-01_
+_2023-06-03_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - nfs export no_root_squash
@@ -15,3 +16,4 @@ _2023-06-01_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
+- test coercion from workstation context
