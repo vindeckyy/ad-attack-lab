@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2023-06-08_
+_2023-06-11_
 
 ## setup
 - target: internal lab 10.0.20.0/24
