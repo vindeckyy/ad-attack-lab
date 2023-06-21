@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2023-06-19_
+_2023-06-21_
 
 ## setup
 - wsl network tweaks applied
@@ -8,6 +8,8 @@ _2023-06-19_
 - nmap scripts updated from master
 
 ## findings
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
