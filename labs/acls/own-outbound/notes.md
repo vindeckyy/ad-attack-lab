@@ -1,15 +1,18 @@
 # acls: own-outbound
 
-_2023-06-15_
+_2023-06-20_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
+- follow up on relay chain
 - ask IT about legacy OU cleanup
