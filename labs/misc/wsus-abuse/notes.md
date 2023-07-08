@@ -1,6 +1,6 @@
 # misc: wsus-abuse
 
-_2023-07-07_
+_2023-07-08_
 
 ## setup
 - proxychains + burp chained
