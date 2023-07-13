@@ -1,6 +1,6 @@
 # ntlm: coercion-petitpotam
 
-_2023-07-11_
+_2023-07-13_
 
 ## setup
 - wsl network tweaks applied
@@ -9,6 +9,8 @@ _2023-07-11_
 - responder listening on the test vlan
 
 ## findings
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
 - nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
