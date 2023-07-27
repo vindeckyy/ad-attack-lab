@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2023-07-23_
+_2023-07-27_
 
 ## setup
 - responder listening on the test vlan
