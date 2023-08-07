@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2023-08-04_
+_2023-08-06_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2023-08-04_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
