@@ -1,10 +1,11 @@
 # adcs: esc1
 
-_2023-08-08_
+_2023-08-10_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
 - ldap anon bind still works
@@ -15,3 +16,4 @@ _2023-08-08_
 
 ## next
 - check for unconstrained delegation hosts
+- follow up on relay chain
