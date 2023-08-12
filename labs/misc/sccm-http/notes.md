@@ -1,10 +1,11 @@
 # misc: sccm-http
 
-_2023-08-10_
+_2023-08-11_
 
 ## setup
 - mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
 - ldap anon bind still works
@@ -15,3 +16,4 @@ _2023-08-10_
 
 ## next
 - check for unconstrained delegation hosts
+- follow up on relay chain
