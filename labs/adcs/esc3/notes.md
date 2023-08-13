@@ -1,12 +1,11 @@
 # adcs: esc3
 
-_2023-08-12_
+_2023-08-13_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -16,4 +15,3 @@ _2023-08-12_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
