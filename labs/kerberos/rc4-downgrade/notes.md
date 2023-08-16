@@ -1,11 +1,10 @@
 # kerberos: rc4-downgrade
 
-_2023-08-12_
+_2023-08-16_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2023-08-12_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
