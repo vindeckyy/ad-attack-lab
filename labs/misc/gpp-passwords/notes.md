@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2023-08-19_
+_2023-08-25_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2023-08-19_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
