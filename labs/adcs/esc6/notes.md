@@ -1,14 +1,14 @@
 # adcs: esc6
 
-_2023-08-24_
+_2023-08-28_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- sweep ipv6 for live hosts
+- write detection rule for the fp case
