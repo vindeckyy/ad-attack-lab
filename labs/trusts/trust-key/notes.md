@@ -1,15 +1,18 @@
 # trusts: trust-key
 
-_2023-09-23_
+_2023-09-24_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
-- ask IT about legacy OU cleanup
+- sweep ipv6 for live hosts
+- test coercion from workstation context
+- retest after patch window
