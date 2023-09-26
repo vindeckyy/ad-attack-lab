@@ -1,15 +1,17 @@
 # misc: sccm-http
 
-_2023-09-25_
+_2023-09-26_
 
 ## setup
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
+- test coercion from workstation context
+- retest after patch window
