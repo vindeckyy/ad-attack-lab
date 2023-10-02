@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2023-09-30_
+_2023-10-01_
 
 ## setup
 - mitm6 paired with ntlmrelayx
