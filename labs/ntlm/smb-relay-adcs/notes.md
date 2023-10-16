@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2023-10-14_
+_2023-10-15_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2023-10-14_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
