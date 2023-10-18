@@ -9,6 +9,8 @@ _2023-10-17_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
