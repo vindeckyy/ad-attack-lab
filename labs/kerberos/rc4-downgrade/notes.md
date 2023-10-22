@@ -1,11 +1,10 @@
 # kerberos: rc4-downgrade
 
-_2023-10-21_
+_2023-10-22_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 
 ## findings
 - jwt accepts none alg
@@ -15,4 +14,3 @@ _2023-10-21_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
