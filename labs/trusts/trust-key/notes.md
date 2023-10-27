@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2023-10-25_
+_2023-10-27_
 
 ## setup
 - proxychains + burp chained
@@ -8,6 +8,8 @@ _2023-10-25_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
