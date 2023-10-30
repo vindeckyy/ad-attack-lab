@@ -1,10 +1,11 @@
 # trusts: sid-history
 
-_2023-10-29_
+_2023-10-30_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - web01 leaks .env via backup dir
@@ -15,3 +16,4 @@ _2023-10-29_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
