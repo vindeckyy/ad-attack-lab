@@ -1,11 +1,10 @@
 # ntlm: smb-relay-adcs
 
-_2023-10-30_
+_2023-11-01_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -14,4 +13,3 @@ _2023-10-30_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
