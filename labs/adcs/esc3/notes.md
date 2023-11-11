@@ -1,16 +1,14 @@
 # adcs: esc3
 
-_2023-11-05_
+_2023-11-10_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- sweep ipv6 for live hosts
