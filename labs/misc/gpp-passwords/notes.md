@@ -1,17 +1,16 @@
 # misc: gpp-passwords
 
-_2023-11-14_
+_2023-11-15_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- follow up on relay chain
