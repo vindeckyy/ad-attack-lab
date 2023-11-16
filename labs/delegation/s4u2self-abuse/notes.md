@@ -1,6 +1,6 @@
 # delegation: s4u2self-abuse
 
-_2023-11-15_
+_2023-11-16_
 
 ## setup
 - new vpnsplit setup for the lab
