@@ -1,10 +1,11 @@
 # misc: dnsadmins-abuse
 
-_2023-11-22_
+_2023-11-29_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2023-11-22_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
