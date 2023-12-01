@@ -1,17 +1,18 @@
 # delegation: s4u2self-abuse
 
-_2023-11-28_
+_2023-12-01_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- retest after patch window
+- check for unconstrained delegation hosts
