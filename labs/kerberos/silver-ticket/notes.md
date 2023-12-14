@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2023-12-13_
+_2023-12-14_
 
 ## setup
 - fresh windows server 2019 box in the lab
