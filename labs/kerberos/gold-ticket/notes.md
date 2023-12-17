@@ -1,16 +1,14 @@
 # kerberos: gold-ticket
 
-_2023-12-15_
+_2023-12-16_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- retest after patch window
