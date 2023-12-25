@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2023-12-20_
+_2023-12-25_
 
 ## setup
 - fresh windows server 2019 box in the lab
