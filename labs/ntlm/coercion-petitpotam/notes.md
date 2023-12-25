@@ -1,6 +1,6 @@
 # ntlm: coercion-petitpotam
 
-_2023-12-21_
+_2023-12-25_
 
 ## setup
 - mitm6 paired with ntlmrelayx
