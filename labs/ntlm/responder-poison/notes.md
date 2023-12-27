@@ -1,6 +1,6 @@
 # ntlm: responder-poison
 
-_2023-12-24_
+_2023-12-26_
 
 ## setup
 - target: internal lab 10.0.20.0/24
