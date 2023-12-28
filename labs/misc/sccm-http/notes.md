@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2023-12-27_
+_2023-12-28_
 
 ## setup
 - mitm6 paired with ntlmrelayx
@@ -8,8 +8,6 @@ _2023-12-27_
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
