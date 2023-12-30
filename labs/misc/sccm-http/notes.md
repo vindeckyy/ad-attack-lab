@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2023-12-28_
+_2023-12-30_
 
 ## setup
 - mitm6 paired with ntlmrelayx
