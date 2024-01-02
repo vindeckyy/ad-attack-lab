@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2023-12-25_
+_2024-01-02_
 
 ## setup
 - responder listening on the test vlan
