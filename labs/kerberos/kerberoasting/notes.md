@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2024-01-05_
+_2024-01-11_
 
 ## setup
 - responder listening on the test vlan
