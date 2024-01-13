@@ -1,16 +1,15 @@
 # delegation: s4u2self-abuse
 
-_2024-01-12_
+_2024-01-13_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- gpp leftovers on legacy OU
 - host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- write detection rule for the fp case
+- check for unconstrained delegation hosts
