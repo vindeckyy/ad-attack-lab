@@ -1,6 +1,6 @@
 # kerberos: asreproast
 
-_2024-01-27_
+_2024-01-30_
 
 ## setup
 - nmap scripts updated from master
