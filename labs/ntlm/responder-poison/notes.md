@@ -1,6 +1,6 @@
 # ntlm: responder-poison
 
-_2024-02-17_
+_2024-02-20_
 
 ## setup
 - fresh windows server 2019 box in the lab
