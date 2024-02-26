@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2024-02-25_
+_2024-02-26_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
