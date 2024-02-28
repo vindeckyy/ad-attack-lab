@@ -1,6 +1,6 @@
 # delegation: s4u2self-abuse
 
-_2024-02-25_
+_2024-02-28_
 
 ## setup
 - proxychains + burp chained
