@@ -1,12 +1,10 @@
 # trusts: trust-key
 
-_2024-02-29_
+_2024-03-05_
 
 ## setup
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
 - jwt accepts none alg
@@ -16,5 +14,3 @@ _2024-02-29_
 
 ## next
 - follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
