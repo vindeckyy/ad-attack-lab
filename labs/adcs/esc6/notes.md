@@ -1,15 +1,15 @@
 # adcs: esc6
 
-_2024-03-01_
+_2024-03-06_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- test coercion from workstation context
+- map remaining acls in bloodhound
