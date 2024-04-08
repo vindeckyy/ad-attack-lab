@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2024-04-07_
+_2024-04-08_
 
 ## setup
 - new vpnsplit setup for the lab
