@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2024-04-08_
+_2024-04-09_
 
 ## setup
 - fresh windows server 2019 box in the lab
