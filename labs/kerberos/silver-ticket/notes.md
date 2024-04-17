@@ -1,15 +1,16 @@
 # kerberos: silver-ticket
 
-_2024-04-15_
+_2024-04-17_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- write detection rule for the fp case
