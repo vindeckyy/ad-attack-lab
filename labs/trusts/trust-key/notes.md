@@ -1,11 +1,10 @@
 # trusts: trust-key
 
-_2024-04-27_
+_2024-05-01_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2024-04-27_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
