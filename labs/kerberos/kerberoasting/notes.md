@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2024-05-01_
+_2024-05-02_
 
 ## setup
 - kali vm snapshot rolled back
