@@ -1,15 +1,16 @@
 # ntlm: smb-relay-adcs
 
-_2024-05-06_
+_2024-05-07_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
+- retest after patch window
+- check for unconstrained delegation hosts
