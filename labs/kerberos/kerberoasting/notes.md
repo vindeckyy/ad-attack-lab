@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2024-05-15_
+_2024-05-17_
 
 ## setup
 - mitm6 paired with ntlmrelayx
