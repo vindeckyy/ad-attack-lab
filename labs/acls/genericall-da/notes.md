@@ -8,6 +8,8 @@ _2024-05-22_
 - wsl network tweaks applied
 
 ## findings
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
