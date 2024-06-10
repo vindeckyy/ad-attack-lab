@@ -7,6 +7,8 @@ _2024-06-10_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
