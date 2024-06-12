@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2024-06-05_
+_2024-06-12_
 
 ## setup
 - new vpnsplit setup for the lab
