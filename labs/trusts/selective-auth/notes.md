@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2024-06-12_
+_2024-06-15_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2024-06-12_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
