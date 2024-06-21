@@ -1,17 +1,14 @@
 # acls: addmember-golden
 
-_2024-06-16_
+_2024-06-21_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
+- retest after patch window
