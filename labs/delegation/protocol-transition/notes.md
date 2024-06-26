@@ -1,6 +1,6 @@
 # delegation: protocol-transition
 
-_2024-06-24_
+_2024-06-26_
 
 ## setup
 - target: internal lab 10.0.20.0/24
