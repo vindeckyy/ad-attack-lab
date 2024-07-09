@@ -1,6 +1,6 @@
 # trusts: intra-forest
 
-_2024-07-07_
+_2024-07-09_
 
 ## setup
 - target: internal lab 10.0.20.0/24
