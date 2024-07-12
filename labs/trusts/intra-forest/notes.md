@@ -1,6 +1,6 @@
 # trusts: intra-forest
 
-_2024-07-11_
+_2024-07-12_
 
 ## setup
 - kali vm snapshot rolled back
