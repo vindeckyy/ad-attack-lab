@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2024-07-19_
+_2024-07-20_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
