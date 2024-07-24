@@ -1,6 +1,6 @@
 # delegation: rbcd
 
-_2024-07-23_
+_2024-07-24_
 
 ## setup
 - nmap scripts updated from master
