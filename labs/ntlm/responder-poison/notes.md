@@ -1,6 +1,6 @@
 # ntlm: responder-poison
 
-_2024-07-25_
+_2024-07-26_
 
 ## setup
 - proxychains + burp chained
