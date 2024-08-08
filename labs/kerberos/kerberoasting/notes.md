@@ -1,10 +1,11 @@
 # kerberos: kerberoasting
 
-_2024-08-05_
+_2024-08-08_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -13,3 +14,4 @@ _2024-08-05_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
