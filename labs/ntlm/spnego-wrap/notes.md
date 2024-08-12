@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2024-08-04_
+_2024-08-12_
 
 ## setup
 - nmap scripts updated from master
