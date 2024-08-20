@@ -1,6 +1,6 @@
 # adcs: esc3
 
-_2024-08-19_
+_2024-08-20_
 
 ## setup
 - wsl network tweaks applied
