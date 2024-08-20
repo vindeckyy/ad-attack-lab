@@ -1,6 +1,6 @@
 # ntlm: ntlm-relay
 
-_2024-08-15_
+_2024-08-20_
 
 ## setup
 - target: internal lab 10.0.20.0/24
