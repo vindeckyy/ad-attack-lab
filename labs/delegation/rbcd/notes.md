@@ -1,15 +1,16 @@
 # delegation: rbcd
 
-_2024-08-23_
+_2024-08-24_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
+- retest after patch window
+- check for unconstrained delegation hosts
