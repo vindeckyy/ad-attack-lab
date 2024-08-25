@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2024-08-24_
+_2024-08-25_
 
 ## setup
 - wsl network tweaks applied
