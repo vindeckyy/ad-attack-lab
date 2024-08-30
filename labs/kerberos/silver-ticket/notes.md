@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2024-08-28_
+_2024-08-30_
 
 ## setup
 - nmap scripts updated from master
