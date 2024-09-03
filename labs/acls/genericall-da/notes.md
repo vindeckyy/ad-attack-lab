@@ -1,15 +1,17 @@
 # acls: genericall-da
 
-_2024-09-02_
+_2024-09-03_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- ask IT about legacy OU cleanup
+- pull sccm http creds if time allows
