@@ -1,6 +1,6 @@
 # acls: addmember-golden
 
-_2024-08-29_
+_2024-09-03_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2024-08-29_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
