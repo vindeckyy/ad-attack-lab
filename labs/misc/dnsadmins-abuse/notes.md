@@ -1,10 +1,11 @@
 # misc: dnsadmins-abuse
 
-_2024-09-10_
+_2024-09-13_
 
 ## setup
 - proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
 - cert template allows enrollment for DA group
@@ -13,3 +14,4 @@ _2024-09-10_
 
 ## next
 - ask IT about legacy OU cleanup
+- try esc4 template misconfig
