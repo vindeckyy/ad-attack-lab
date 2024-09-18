@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2024-09-17_
+_2024-09-18_
 
 ## setup
 - nmap scripts updated from master
