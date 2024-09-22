@@ -1,19 +1,16 @@
 # misc: sccm-http
 
-_2024-09-19_
+_2024-09-22_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
+- try esc4 template misconfig
 - pull sccm http creds if time allows
-- write detection rule for the fp case
