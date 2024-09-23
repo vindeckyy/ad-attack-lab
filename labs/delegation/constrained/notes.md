@@ -1,6 +1,6 @@
 # delegation: constrained
 
-_2024-09-22_
+_2024-09-23_
 
 ## setup
 - target: internal lab 10.0.20.0/24
