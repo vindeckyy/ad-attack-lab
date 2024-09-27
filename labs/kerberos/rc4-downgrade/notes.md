@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2024-09-25_
+_2024-09-27_
 
 ## setup
 - new vpnsplit setup for the lab
