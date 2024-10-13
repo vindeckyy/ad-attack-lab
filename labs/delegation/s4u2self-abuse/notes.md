@@ -1,20 +1,19 @@
 # delegation: s4u2self-abuse
 
-_2024-10-12_
+_2024-10-13_
 
 ## setup
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
