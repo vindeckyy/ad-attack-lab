@@ -1,14 +1,14 @@
 # trusts: sid-history
 
-_2024-10-30_
+_2024-10-31_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
