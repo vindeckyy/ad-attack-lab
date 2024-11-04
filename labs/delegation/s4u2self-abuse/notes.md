@@ -1,6 +1,6 @@
 # delegation: s4u2self-abuse
 
-_2024-11-02_
+_2024-11-04_
 
 ## setup
 - mitm6 paired with ntlmrelayx
