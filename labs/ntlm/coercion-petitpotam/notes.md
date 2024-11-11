@@ -1,6 +1,6 @@
 # ntlm: coercion-petitpotam
 
-_2024-11-08_
+_2024-11-10_
 
 ## setup
 - kali vm snapshot rolled back
