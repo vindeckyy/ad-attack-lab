@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2024-11-10_
+_2024-11-14_
 
 ## setup
 - nmap scripts updated from master
