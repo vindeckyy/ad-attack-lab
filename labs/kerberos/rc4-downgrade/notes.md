@@ -1,14 +1,15 @@
 # kerberos: rc4-downgrade
 
-_2024-11-13_
+_2024-11-14_
 
 ## setup
-- responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
+- ask IT about legacy OU cleanup
