@@ -6,7 +6,6 @@ _2024-11-15_
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - wsus unsigned allowed
@@ -18,4 +17,3 @@ _2024-11-15_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
