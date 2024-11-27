@@ -1,6 +1,6 @@
 # acls: genericall-da
 
-_2024-11-25_
+_2024-11-26_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2024-11-25_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
