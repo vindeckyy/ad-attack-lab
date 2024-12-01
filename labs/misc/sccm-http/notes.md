@@ -1,11 +1,10 @@
 # misc: sccm-http
 
-_2024-11-28_
+_2024-12-01_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - winrm open on workstations
@@ -14,4 +13,3 @@ _2024-11-28_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
