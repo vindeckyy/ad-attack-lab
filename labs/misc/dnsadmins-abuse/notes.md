@@ -1,11 +1,12 @@
 # misc: dnsadmins-abuse
 
-_2024-12-02_
+_2024-12-03_
 
 ## setup
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
 - nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
 - as-rep roastable: 2 accounts
@@ -17,3 +18,4 @@ _2024-12-02_
 ## next
 - map remaining acls in bloodhound
 - sweep ipv6 for live hosts
+- test coercion from workstation context
