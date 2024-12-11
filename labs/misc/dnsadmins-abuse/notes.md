@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2024-12-10_
+_2024-12-11_
 
 ## setup
 - wsl network tweaks applied
