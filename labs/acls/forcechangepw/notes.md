@@ -1,14 +1,16 @@
 # acls: forcechangepw
 
-_2024-12-10_
+_2024-12-11_
 
 ## setup
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- retest after patch window
+- follow up on relay chain
+- ask IT about legacy OU cleanup
