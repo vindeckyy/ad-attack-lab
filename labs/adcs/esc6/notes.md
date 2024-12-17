@@ -1,14 +1,15 @@
 # adcs: esc6
 
-_2024-12-16_
+_2024-12-17_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- retest after patch window
+- pull sccm http creds if time allows
