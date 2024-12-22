@@ -1,14 +1,14 @@
 # misc: wsus-abuse
 
-_2024-12-21_
+_2024-12-22_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- follow up on relay chain
