@@ -1,19 +1,14 @@
 # delegation: s4u2self-abuse
 
-_2024-12-20_
+_2024-12-23_
 
 ## setup
-- nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- try esc4 template misconfig
