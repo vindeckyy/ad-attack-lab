@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2024-12-24_
+_2024-12-27_
 
 ## setup
 - mitm6 paired with ntlmrelayx
