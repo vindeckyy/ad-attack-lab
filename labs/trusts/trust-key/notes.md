@@ -1,16 +1,17 @@
 # trusts: trust-key
 
-_2024-12-30_
+_2024-12-31_
 
 ## setup
+- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
 - check for unconstrained delegation hosts
