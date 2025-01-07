@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2025-01-06_
+_2025-01-07_
 
 ## setup
 - proxychains + burp chained
@@ -9,6 +9,8 @@ _2025-01-06_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
 - cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
