@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2025-01-06_
+_2025-01-07_
 
 ## setup
 - mitm6 paired with ntlmrelayx
