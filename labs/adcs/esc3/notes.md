@@ -1,11 +1,10 @@
 # adcs: esc3
 
-_2025-01-04_
+_2025-01-08_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
-- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -16,4 +15,3 @@ _2025-01-04_
 
 ## next
 - pull sccm http creds if time allows
-- write detection rule for the fp case
