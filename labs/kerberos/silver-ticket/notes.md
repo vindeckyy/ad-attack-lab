@@ -1,6 +1,6 @@
 # kerberos: silver-ticket
 
-_2025-01-20_
+_2025-01-23_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,6 +9,8 @@ _2025-01-20_
 - proxychains + burp chained
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
