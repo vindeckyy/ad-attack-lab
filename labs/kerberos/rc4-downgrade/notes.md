@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2025-01-29_
+_2025-01-30_
 
 ## setup
 - wsl network tweaks applied
