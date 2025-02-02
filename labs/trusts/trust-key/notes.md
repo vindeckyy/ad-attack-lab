@@ -1,11 +1,10 @@
 # trusts: trust-key
 
-_2025-01-31_
+_2025-02-02_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2025-01-31_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
