@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2025-02-04_
+_2025-02-05_
 
 ## setup
 - nmap scripts updated from master
@@ -9,8 +9,6 @@ _2025-02-04_
 - kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
