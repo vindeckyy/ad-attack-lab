@@ -1,14 +1,15 @@
 # misc: dnsadmins-abuse
 
-_2025-02-01_
+_2025-02-04_
 
 ## setup
+- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
+- test coercion from workstation context
