@@ -1,16 +1,14 @@
 # delegation: s4u2self-abuse
 
-_2025-02-05_
+_2025-02-06_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- retest after patch window
