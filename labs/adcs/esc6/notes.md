@@ -1,17 +1,17 @@
 # adcs: esc6
 
-_2025-02-21_
+_2025-02-22_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- map remaining acls in bloodhound
+- check for unconstrained delegation hosts
+- follow up on relay chain
