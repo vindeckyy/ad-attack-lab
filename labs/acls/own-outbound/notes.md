@@ -1,11 +1,12 @@
 # acls: own-outbound
 
-_2025-02-21_
+_2025-03-01_
 
 ## setup
 - target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
 - snmp community 'public' read-all
@@ -17,3 +18,4 @@ _2025-02-21_
 ## next
 - test coercion from workstation context
 - retest after patch window
+- check for unconstrained delegation hosts
