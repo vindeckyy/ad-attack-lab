@@ -1,21 +1,14 @@
 # delegation: rbcd
 
-_2025-02-27_
+_2025-03-01_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- retest after patch window
