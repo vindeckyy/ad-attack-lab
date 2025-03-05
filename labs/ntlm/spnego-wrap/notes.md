@@ -1,14 +1,15 @@
 # ntlm: spnego-wrap
 
-_2025-02-25_
+_2025-03-05_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
+- cert template allows enrollment for DA group
 - kerberoastable: svc_backup, svc_sql
 - web01 leaks .env via backup dir
 
 ## next
-- sweep ipv6 for live hosts
+- ask IT about legacy OU cleanup
