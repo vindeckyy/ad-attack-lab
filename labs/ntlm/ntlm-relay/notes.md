@@ -1,19 +1,14 @@
 # ntlm: ntlm-relay
 
-_2025-03-04_
+_2025-03-06_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- check for unconstrained delegation hosts
-- follow up on relay chain
+- write detection rule for the fp case
