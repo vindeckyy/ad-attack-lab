@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2025-03-05_
+_2025-03-09_
 
 ## setup
 - kali vm snapshot rolled back
