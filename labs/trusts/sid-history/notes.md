@@ -1,18 +1,14 @@
 # trusts: sid-history
 
-_2025-03-07_
+_2025-03-10_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- write detection rule for the fp case
