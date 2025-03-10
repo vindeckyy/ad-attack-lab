@@ -1,14 +1,15 @@
 # adcs: esc8
 
-_2025-03-06_
+_2025-03-09_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
-- try esc4 template misconfig
+- test coercion from workstation context
