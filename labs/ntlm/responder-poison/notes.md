@@ -1,21 +1,17 @@
 # ntlm: responder-poison
 
-_2025-03-14_
+_2025-03-17_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- test coercion from workstation context
