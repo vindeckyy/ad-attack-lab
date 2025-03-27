@@ -1,14 +1,17 @@
 # delegation: rbcd
 
-_2025-03-25_
+_2025-03-27_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
 ## next
-- follow up on relay chain
+- map remaining acls in bloodhound
+- sweep ipv6 for live hosts
