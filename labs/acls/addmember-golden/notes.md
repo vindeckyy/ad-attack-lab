@@ -7,8 +7,6 @@ _2025-04-05_
 - proxychains + burp chained
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
