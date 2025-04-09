@@ -1,6 +1,6 @@
 # ntlm: responder-poison
 
-_2025-04-06_
+_2025-04-09_
 
 ## setup
 - mitm6 paired with ntlmrelayx
