@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2025-04-10_
+_2025-04-12_
 
 ## setup
 - responder listening on the test vlan
@@ -9,6 +9,8 @@ _2025-04-10_
 - mitm6 paired with ntlmrelayx
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
