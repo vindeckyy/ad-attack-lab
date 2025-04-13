@@ -5,6 +5,7 @@ _2025-04-13_
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2025-04-13_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
