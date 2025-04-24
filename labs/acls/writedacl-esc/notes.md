@@ -1,19 +1,17 @@
 # acls: writedacl-esc
 
-_2025-04-23_
+_2025-04-24_
 
 ## setup
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
 - test coercion from workstation context
+- retest after patch window
