@@ -1,11 +1,10 @@
 # acls: addmember-golden
 
-_2025-05-02_
+_2025-05-05_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2025-05-02_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
