@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2025-05-05_
+_2025-05-06_
 
 ## setup
 - target: internal lab 10.0.20.0/24
