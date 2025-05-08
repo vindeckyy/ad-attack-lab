@@ -1,18 +1,14 @@
 # misc: sccm-http
 
-_2025-05-05_
+_2025-05-08_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
 - follow up on relay chain
