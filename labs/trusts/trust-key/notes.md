@@ -1,16 +1,17 @@
 # trusts: trust-key
 
-_2025-05-12_
+_2025-05-14_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
-- map remaining acls in bloodhound
+- ask IT about legacy OU cleanup
