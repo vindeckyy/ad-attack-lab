@@ -1,20 +1,17 @@
 # acls: writedacl-esc
 
-_2025-05-17_
+_2025-05-20_
 
 ## setup
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- follow up on relay chain
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- test coercion from workstation context
+- retest after patch window
