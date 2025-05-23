@@ -1,15 +1,17 @@
 # adcs: esc3
 
-_2025-05-19_
+_2025-05-23_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
+- pull sccm http creds if time allows
