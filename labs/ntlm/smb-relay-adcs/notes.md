@@ -1,18 +1,14 @@
 # ntlm: smb-relay-adcs
 
-_2025-05-25_
+_2025-05-31_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
+- follow up on relay chain
