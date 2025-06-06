@@ -1,14 +1,14 @@
 # delegation: rbcd
 
-_2025-06-04_
+_2025-06-06_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- write detection rule for the fp case
+- follow up on relay chain
