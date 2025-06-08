@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2025-06-07_
+_2025-06-08_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
