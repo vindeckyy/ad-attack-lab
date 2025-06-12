@@ -1,17 +1,19 @@
 # delegation: unconstrained
 
-_2025-06-09_
+_2025-06-12_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- pull sccm http creds if time allows
+- check for unconstrained delegation hosts
+- follow up on relay chain
