@@ -1,6 +1,6 @@
 # trusts: intra-forest
 
-_2025-06-15_
+_2025-06-16_
 
 ## setup
 - mitm6 paired with ntlmrelayx
