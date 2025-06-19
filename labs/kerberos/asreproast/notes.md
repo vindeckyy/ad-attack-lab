@@ -1,14 +1,18 @@
 # kerberos: asreproast
 
-_2025-06-14_
+_2025-06-18_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
