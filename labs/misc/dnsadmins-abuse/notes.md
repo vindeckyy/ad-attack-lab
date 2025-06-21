@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2025-06-20_
+_2025-06-21_
 
 ## setup
 - proxychains + burp chained
