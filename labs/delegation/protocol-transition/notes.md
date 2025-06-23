@@ -1,15 +1,17 @@
 # delegation: protocol-transition
 
-_2025-06-22_
+_2025-06-23_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
+- test coercion from workstation context
