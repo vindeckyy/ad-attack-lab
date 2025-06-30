@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2025-06-28_
+_2025-06-30_
 
 ## setup
 - target: internal lab 10.0.20.0/24
