@@ -1,14 +1,20 @@
 # ntlm: spnego-wrap
 
-_2025-06-27_
+_2025-06-29_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
+- follow up on relay chain
+- ask IT about legacy OU cleanup
 - try esc4 template misconfig
