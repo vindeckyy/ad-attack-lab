@@ -1,18 +1,19 @@
 # kerberos: kerberoasting
 
-_2025-06-26_
+_2025-06-29_
 
 ## setup
+- proxychains + burp chained
 - kali vm snapshot rolled back
 - mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 
 ## findings
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- follow up on relay chain
 - ask IT about legacy OU cleanup
 - try esc4 template misconfig
