@@ -1,6 +1,6 @@
 # kerberos: asreproast
 
-_2025-06-27_
+_2025-07-01_
 
 ## setup
 - new vpnsplit setup for the lab
