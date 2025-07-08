@@ -1,15 +1,15 @@
 # adcs: esc4
 
-_2025-07-07_
+_2025-07-08_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
+- check for unconstrained delegation hosts
