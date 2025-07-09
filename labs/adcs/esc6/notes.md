@@ -1,15 +1,16 @@
 # adcs: esc6
 
-_2025-07-08_
+_2025-07-09_
 
 ## setup
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
+- retest after patch window
