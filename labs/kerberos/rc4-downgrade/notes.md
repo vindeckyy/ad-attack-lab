@@ -1,15 +1,16 @@
 # kerberos: rc4-downgrade
 
-_2025-07-08_
+_2025-07-10_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
 ## next
-- pull sccm http creds if time allows
+- retest after patch window
