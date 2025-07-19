@@ -1,12 +1,11 @@
 # delegation: s4u2self-abuse
 
-_2025-07-17_
+_2025-07-19_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
 - new vpnsplit setup for the lab
-- nmap scripts updated from master
 
 ## findings
 - kerberoastable: svc_backup, svc_sql
@@ -15,4 +14,3 @@ _2025-07-17_
 ## next
 - sweep ipv6 for live hosts
 - test coercion from workstation context
-- retest after patch window
