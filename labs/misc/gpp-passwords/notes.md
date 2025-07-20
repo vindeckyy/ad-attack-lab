@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2025-07-15_
+_2025-07-19_
 
 ## setup
 - nmap scripts updated from master
@@ -9,8 +9,6 @@ _2025-07-15_
 - kali vm snapshot rolled back
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
