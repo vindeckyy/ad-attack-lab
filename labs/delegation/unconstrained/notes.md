@@ -1,14 +1,14 @@
 # delegation: unconstrained
 
-_2025-07-23_
+_2025-07-25_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
+- write detection rule for the fp case
