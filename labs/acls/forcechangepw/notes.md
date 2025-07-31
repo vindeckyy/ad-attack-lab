@@ -1,6 +1,6 @@
 # acls: forcechangepw
 
-_2025-07-25_
+_2025-07-31_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2025-07-25_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
