@@ -7,6 +7,8 @@ _2025-08-09_
 - target: internal lab 10.0.20.0/24
 
 ## findings
+- printers reachable from guest vlan
+- winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
 
