@@ -1,6 +1,6 @@
 # delegation: constrained
 
-_2025-08-15_
+_2025-08-16_
 
 ## setup
 - mitm6 paired with ntlmrelayx
