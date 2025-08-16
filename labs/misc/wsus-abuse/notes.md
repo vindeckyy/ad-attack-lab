@@ -1,6 +1,6 @@
 # misc: wsus-abuse
 
-_2025-08-15_
+_2025-08-16_
 
 ## setup
 - kali vm snapshot rolled back
