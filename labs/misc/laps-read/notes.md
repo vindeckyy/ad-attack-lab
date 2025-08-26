@@ -1,6 +1,6 @@
 # misc: laps-read
 
-_2025-08-25_
+_2025-08-26_
 
 ## setup
 - responder listening on the test vlan
@@ -8,8 +8,6 @@ _2025-08-25_
 - kali vm snapshot rolled back
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
