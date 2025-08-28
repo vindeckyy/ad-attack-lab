@@ -1,16 +1,14 @@
 # trusts: sid-history
 
-_2025-08-22_
+_2025-08-28_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
+- sweep ipv6 for live hosts
