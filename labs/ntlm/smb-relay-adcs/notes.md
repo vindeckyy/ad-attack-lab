@@ -1,20 +1,15 @@
 # ntlm: smb-relay-adcs
 
-_2025-08-27_
+_2025-08-31_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
-- retest after patch window
+- check for unconstrained delegation hosts
