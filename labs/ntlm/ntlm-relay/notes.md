@@ -1,6 +1,6 @@
 # ntlm: ntlm-relay
 
-_2025-08-29_
+_2025-09-02_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -9,6 +9,8 @@ _2025-08-29_
 - proxychains + burp chained
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
