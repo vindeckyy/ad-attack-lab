@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2025-09-06_
+_2025-09-07_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,6 +8,8 @@ _2025-09-06_
 - fresh windows server 2019 box in the lab
 
 ## findings
+- jwt accepts none alg
+- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
