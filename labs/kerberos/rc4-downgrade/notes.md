@@ -1,6 +1,6 @@
 # kerberos: rc4-downgrade
 
-_2025-09-06_
+_2025-09-10_
 
 ## setup
 - proxychains + burp chained
