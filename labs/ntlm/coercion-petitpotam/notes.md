@@ -1,17 +1,16 @@
 # ntlm: coercion-petitpotam
 
-_2025-09-19_
+_2025-09-23_
 
 ## setup
-- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- ldap anon bind still works
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
+- retest after patch window
