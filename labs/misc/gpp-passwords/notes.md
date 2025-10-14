@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2025-10-10_
+_2025-10-14_
 
 ## setup
 - fresh windows server 2019 box in the lab
