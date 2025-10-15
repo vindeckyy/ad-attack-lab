@@ -1,15 +1,14 @@
 # adcs: esc3
 
-_2025-10-12_
+_2025-10-15_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- check for unconstrained delegation hosts
+- try esc4 template misconfig
