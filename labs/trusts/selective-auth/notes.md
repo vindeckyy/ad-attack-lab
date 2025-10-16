@@ -1,17 +1,17 @@
 # trusts: selective-auth
 
-_2025-10-13_
+_2025-10-16_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- web01 leaks .env via backup dir
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
+- map remaining acls in bloodhound
