@@ -1,6 +1,6 @@
 # ntlm: smb-relay-adcs
 
-_2025-10-16_
+_2025-10-22_
 
 ## setup
 - kali vm snapshot rolled back
