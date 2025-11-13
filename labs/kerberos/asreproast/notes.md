@@ -1,6 +1,6 @@
 # kerberos: asreproast
 
-_2025-11-11_
+_2025-11-13_
 
 ## setup
 - mitm6 paired with ntlmrelayx
