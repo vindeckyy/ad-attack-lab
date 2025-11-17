@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2025-11-13_
+_2025-11-17_
 
 ## setup
 - fresh windows server 2019 box in the lab
