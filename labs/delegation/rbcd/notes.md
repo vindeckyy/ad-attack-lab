@@ -1,6 +1,6 @@
 # delegation: rbcd
 
-_2025-11-18_
+_2025-11-19_
 
 ## setup
 - target: internal lab 10.0.20.0/24
