@@ -1,10 +1,11 @@
 # ntlm: responder-poison
 
-_2025-11-27_
+_2025-12-01_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
 - wsus unsigned allowed
@@ -15,3 +16,4 @@ _2025-11-27_
 
 ## next
 - pull sccm http creds if time allows
+- write detection rule for the fp case
