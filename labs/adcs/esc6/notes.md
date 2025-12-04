@@ -1,18 +1,18 @@
 # adcs: esc6
 
-_2025-12-03_
+_2025-12-04_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- mssql linked server to dc
-- snmp community 'public' read-all
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- try esc4 template misconfig
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- sweep ipv6 for live hosts
+- test coercion from workstation context
