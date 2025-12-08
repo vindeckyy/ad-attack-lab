@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2025-12-05_
+_2025-12-08_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,8 +8,6 @@ _2025-12-05_
 - responder listening on the test vlan
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
