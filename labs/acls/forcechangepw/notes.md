@@ -1,12 +1,11 @@
 # acls: forcechangepw
 
-_2025-12-09_
+_2025-12-10_
 
 ## setup
 - nmap scripts updated from master
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - winrm open on workstations
@@ -16,4 +15,3 @@ _2025-12-09_
 ## next
 - pull sccm http creds if time allows
 - write detection rule for the fp case
-- map remaining acls in bloodhound
