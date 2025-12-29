@@ -1,15 +1,14 @@
 # ntlm: smb-relay-adcs
 
-_2025-12-25_
+_2025-12-28_
 
 ## setup
-- proxychains + burp chained
 - kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- ask IT about legacy OU cleanup
+- follow up on relay chain
