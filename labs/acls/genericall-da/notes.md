@@ -3,13 +3,12 @@
 _2026-01-01_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
 
 ## findings
-- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
 ## next
-- check for unconstrained delegation hosts
+- write detection rule for the fp case
