@@ -1,6 +1,6 @@
 # kerberos: asreproast
 
-_2026-01-07_
+_2026-01-08_
 
 ## setup
 - proxychains + burp chained
