@@ -1,11 +1,10 @@
 # misc: gpp-passwords
 
-_2026-01-05_
+_2026-01-08_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2026-01-05_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
