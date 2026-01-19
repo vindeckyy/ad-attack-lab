@@ -1,6 +1,6 @@
 # acls: addmember-golden
 
-_2026-01-18_
+_2026-01-19_
 
 ## setup
 - mitm6 paired with ntlmrelayx
