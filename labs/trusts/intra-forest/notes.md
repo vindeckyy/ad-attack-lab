@@ -1,6 +1,6 @@
 # trusts: intra-forest
 
-_2026-01-24_
+_2026-01-27_
 
 ## setup
 - proxychains + burp chained
