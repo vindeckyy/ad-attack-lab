@@ -1,11 +1,10 @@
 # trusts: sid-history
 
-_2026-01-22_
+_2026-01-29_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2026-01-22_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
