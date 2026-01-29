@@ -1,6 +1,6 @@
 # delegation: rbcd
 
-_2026-01-27_
+_2026-01-29_
 
 ## setup
 - new vpnsplit setup for the lab
