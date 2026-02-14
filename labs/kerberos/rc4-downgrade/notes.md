@@ -1,11 +1,10 @@
 # kerberos: rc4-downgrade
 
-_2026-02-10_
+_2026-02-13_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -13,4 +12,3 @@ _2026-02-10_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
