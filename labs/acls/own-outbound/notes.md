@@ -1,15 +1,14 @@
 # acls: own-outbound
 
-_2026-03-06_
+_2026-03-08_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- check for unconstrained delegation hosts
+- try esc4 template misconfig
