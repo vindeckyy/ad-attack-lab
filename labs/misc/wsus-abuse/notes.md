@@ -1,6 +1,6 @@
 # misc: wsus-abuse
 
-_2026-03-12_
+_2026-03-15_
 
 ## setup
 - new vpnsplit setup for the lab
