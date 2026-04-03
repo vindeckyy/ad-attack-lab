@@ -1,6 +1,6 @@
 # trusts: sid-history
 
-_2026-04-01_
+_2026-04-02_
 
 ## setup
 - nmap scripts updated from master
@@ -9,6 +9,8 @@ _2026-04-01_
 - kali vm snapshot rolled back
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
