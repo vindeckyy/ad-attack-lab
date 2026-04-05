@@ -1,6 +1,6 @@
 # misc: laps-read
 
-_2026-04-03_
+_2026-04-04_
 
 ## setup
 - new vpnsplit setup for the lab
