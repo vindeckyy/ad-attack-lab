@@ -9,8 +9,6 @@ _2026-04-18_
 - new vpnsplit setup for the lab
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
