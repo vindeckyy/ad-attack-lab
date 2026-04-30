@@ -1,10 +1,11 @@
 # acls: forcechangepw
 
-_2026-04-28_
+_2026-04-29_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - mssql linked server to dc
@@ -12,3 +13,4 @@ _2026-04-28_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
