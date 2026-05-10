@@ -1,6 +1,6 @@
 # acls: genericall-da
 
-_2026-05-08_
+_2026-05-10_
 
 ## setup
 - nmap scripts updated from master
@@ -8,8 +8,6 @@ _2026-05-08_
 - proxychains + burp chained
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
