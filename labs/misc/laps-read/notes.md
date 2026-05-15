@@ -1,6 +1,6 @@
 # misc: laps-read
 
-_2026-05-09_
+_2026-05-15_
 
 ## setup
 - target: internal lab 10.0.20.0/24
