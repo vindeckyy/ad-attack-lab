@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2026-05-27_
+_2026-05-31_
 
 ## setup
 - wsl network tweaks applied
