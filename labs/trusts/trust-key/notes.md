@@ -1,6 +1,6 @@
 # trusts: trust-key
 
-_2026-06-06_
+_2026-06-08_
 
 ## setup
 - f_proxy moved to 127.0.0.1:8080
