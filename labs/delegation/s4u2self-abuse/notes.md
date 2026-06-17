@@ -1,6 +1,6 @@
 # delegation: s4u2self-abuse
 
-_2026-06-14_
+_2026-06-17_
 
 ## setup
 - fresh windows server 2019 box in the lab
