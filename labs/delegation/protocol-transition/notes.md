@@ -1,6 +1,6 @@
 # delegation: protocol-transition
 
-_2026-06-15_
+_2026-06-17_
 
 ## setup
 - mitm6 paired with ntlmrelayx
