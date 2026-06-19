@@ -1,6 +1,6 @@
 # adcs: esc6
 
-_2026-06-17_
+_2026-06-18_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2026-06-17_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
