@@ -1,6 +1,6 @@
 # delegation: protocol-transition
 
-_2026-06-30_
+_2026-07-03_
 
 ## setup
 - kali vm snapshot rolled back
@@ -8,8 +8,6 @@ _2026-06-30_
 - fresh windows server 2019 box in the lab
 
 ## findings
-- jwt accepts none alg
-- nfs export no_root_squash
 - smb signing disabled on 3 hosts
 - as-rep roastable: 2 accounts
 
