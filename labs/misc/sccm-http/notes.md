@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2026-07-03_
+_2026-07-05_
 
 ## setup
 - responder listening on the test vlan
