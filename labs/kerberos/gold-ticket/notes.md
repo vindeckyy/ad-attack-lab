@@ -1,6 +1,6 @@
 # kerberos: gold-ticket
 
-_2026-07-09_
+_2026-07-16_
 
 ## setup
 - fresh windows server 2019 box in the lab
