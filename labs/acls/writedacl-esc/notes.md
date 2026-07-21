@@ -1,6 +1,6 @@
 # acls: writedacl-esc
 
-_2026-07-20_
+_2026-07-21_
 
 ## setup
 - new vpnsplit setup for the lab
@@ -8,6 +8,8 @@ _2026-07-20_
 - responder listening on the test vlan
 
 ## findings
+- gpp leftovers on legacy OU
+- host header injection poisons cache
 - adcs template esc1 on WebServer
 - ldap anon bind still works
 
