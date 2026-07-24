@@ -1,6 +1,6 @@
 # misc: dnsadmins-abuse
 
-_2026-07-23_
+_2026-07-24_
 
 ## setup
 - kali vm snapshot rolled back
