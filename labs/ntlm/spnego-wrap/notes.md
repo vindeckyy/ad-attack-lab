@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2026-07-28_
+_2026-07-29_
 
 ## setup
 - responder listening on the test vlan
@@ -8,6 +8,8 @@ _2026-07-28_
 - kali vm snapshot rolled back
 
 ## findings
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
