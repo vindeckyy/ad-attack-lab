@@ -1,6 +1,6 @@
 # misc: laps-read
 
-_2026-07-29_
+_2026-07-30_
 
 ## setup
 - kali vm snapshot rolled back
