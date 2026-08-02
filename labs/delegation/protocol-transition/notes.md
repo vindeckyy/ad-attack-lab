@@ -1,17 +1,17 @@
 # delegation: protocol-transition
 
-_2026-08-01_
+_2026-08-02_
 
 ## setup
-- mitm6 paired with ntlmrelayx
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
+- nmap scripts updated from master
+- responder listening on the test vlan
+- proxychains + burp chained
 
 ## findings
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- check for unconstrained delegation hosts
-- follow up on relay chain
+- pull sccm http creds if time allows
+- write detection rule for the fp case
