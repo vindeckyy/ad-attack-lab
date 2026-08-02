@@ -1,16 +1,16 @@
 # delegation: rbcd
 
-_2026-08-01_
+_2026-08-02_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- follow up on relay chain
+- ask IT about legacy OU cleanup
