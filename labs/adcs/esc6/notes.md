@@ -1,15 +1,16 @@
 # adcs: esc6
 
-_2026-07-29_
+_2026-08-02_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- test coercion from workstation context
+- follow up on relay chain
