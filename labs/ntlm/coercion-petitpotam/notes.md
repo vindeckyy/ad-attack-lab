@@ -1,19 +1,16 @@
 # ntlm: coercion-petitpotam
 
-_2026-07-31_
+_2026-08-04_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
-- responder listening on the test vlan
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- retest after patch window
