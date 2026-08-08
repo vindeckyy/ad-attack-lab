@@ -1,17 +1,16 @@
 # trusts: sid-history
 
-_2026-08-03_
+_2026-08-07_
 
 ## setup
-- proxychains + burp chained
-- kali vm snapshot rolled back
-- mitm6 paired with ntlmrelayx
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- ask IT about legacy OU cleanup
-- try esc4 template misconfig
+- write detection rule for the fp case
+- map remaining acls in bloodhound
