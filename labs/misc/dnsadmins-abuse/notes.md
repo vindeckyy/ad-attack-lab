@@ -1,18 +1,14 @@
 # misc: dnsadmins-abuse
 
-_2026-08-07_
+_2026-08-10_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- retest after patch window
