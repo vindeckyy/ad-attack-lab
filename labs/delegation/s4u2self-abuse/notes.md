@@ -1,17 +1,15 @@
 # delegation: s4u2self-abuse
 
-_2026-08-11_
+_2026-08-13_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- check for unconstrained delegation hosts
