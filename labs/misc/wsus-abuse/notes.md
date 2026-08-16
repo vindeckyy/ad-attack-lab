@@ -1,11 +1,10 @@
 # misc: wsus-abuse
 
-_2026-08-14_
+_2026-08-15_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
-- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -15,4 +14,3 @@ _2026-08-14_
 
 ## next
 - try esc4 template misconfig
-- pull sccm http creds if time allows
