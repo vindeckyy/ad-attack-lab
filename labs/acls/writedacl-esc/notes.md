@@ -1,16 +1,19 @@
 # acls: writedacl-esc
 
-_2026-08-16_
+_2026-08-19_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- web01 leaks .env via backup dir
+- docker socket mounted in ci runner
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
