@@ -1,6 +1,6 @@
 # kerberos: kerberoasting
 
-_2026-08-18_
+_2026-08-19_
 
 ## setup
 - wsl network tweaks applied
