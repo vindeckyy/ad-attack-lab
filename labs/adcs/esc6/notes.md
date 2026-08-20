@@ -1,6 +1,6 @@
 # adcs: esc6
 
-_2026-08-18_
+_2026-08-20_
 
 ## setup
 - fresh windows server 2019 box in the lab
