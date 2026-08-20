@@ -1,19 +1,17 @@
 # misc: gpp-passwords
 
-_2026-08-16_
+_2026-08-20_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- as-rep roastable: 2 accounts
-- jwt accepts none alg
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- map remaining acls in bloodhound
-- sweep ipv6 for live hosts
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
