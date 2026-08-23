@@ -1,6 +1,6 @@
 # delegation: rbcd
 
-_2026-08-19_
+_2026-08-23_
 
 ## setup
 - responder listening on the test vlan
