@@ -1,6 +1,6 @@
 # misc: gpp-passwords
 
-_2026-08-20_
+_2026-08-24_
 
 ## setup
 - proxychains + burp chained
