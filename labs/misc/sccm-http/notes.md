@@ -1,14 +1,16 @@
 # misc: sccm-http
 
-_2026-08-27_
+_2026-08-28_
 
 ## setup
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
 
 ## findings
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- sweep ipv6 for live hosts
+- retest after patch window
+- check for unconstrained delegation hosts
