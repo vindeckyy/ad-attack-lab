@@ -1,17 +1,17 @@
 # trusts: selective-auth
 
-_2026-08-29_
+_2026-08-30_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- as-rep roastable: 2 accounts
+- jwt accepts none alg
+- nfs export no_root_squash
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- map remaining acls in bloodhound
