@@ -1,10 +1,11 @@
 # kerberos: kerberoasting
 
-_2026-08-29_
+_2026-09-02_
 
 ## setup
 - responder listening on the test vlan
 - proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
 - rdp nla disabled on legacy box
@@ -14,3 +15,4 @@ _2026-08-29_
 
 ## next
 - try esc4 template misconfig
+- pull sccm http creds if time allows
