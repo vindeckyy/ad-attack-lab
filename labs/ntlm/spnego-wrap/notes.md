@@ -1,16 +1,16 @@
 # ntlm: spnego-wrap
 
-_2026-08-28_
+_2026-09-06_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- new vpnsplit setup for the lab
+- nmap scripts updated from master
+- responder listening on the test vlan
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
+- write detection rule for the fp case
+- map remaining acls in bloodhound
