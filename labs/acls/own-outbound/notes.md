@@ -1,16 +1,16 @@
 # acls: own-outbound
 
-_2026-09-08_
+_2026-09-11_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- try esc4 template misconfig
+- follow up on relay chain
+- ask IT about legacy OU cleanup
