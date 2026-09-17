@@ -3,15 +3,15 @@
 _2026-09-17_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- pull sccm http creds if time allows
+- check for unconstrained delegation hosts
