@@ -1,15 +1,16 @@
 # misc: laps-read
 
-_2026-09-17_
+_2026-09-18_
 
 ## setup
-- target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
-- test coercion from workstation context
+- try esc4 template misconfig
+- pull sccm http creds if time allows
