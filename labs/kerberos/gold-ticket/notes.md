@@ -1,19 +1,21 @@
 # kerberos: gold-ticket
 
-_2026-09-16_
+_2026-09-18_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- wsus unsigned allowed
-- printers reachable from guest vlan
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- snmp community 'public' read-all
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
