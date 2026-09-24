@@ -1,19 +1,21 @@
 # misc: laps-read
 
-_2026-09-19_
+_2026-09-24_
 
 ## setup
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
 - nmap scripts updated from master
 - responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- nfs export no_root_squash
-- smb signing disabled on 3 hosts
-- as-rep roastable: 2 accounts
+- wsus unsigned allowed
+- printers reachable from guest vlan
+- winrm open on workstations
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
+- pull sccm http creds if time allows
+- write detection rule for the fp case
 - map remaining acls in bloodhound
-- sweep ipv6 for live hosts
-- test coercion from workstation context
