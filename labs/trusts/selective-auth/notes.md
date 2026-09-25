@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2026-09-20_
+_2026-09-25_
 
 ## setup
 - new vpnsplit setup for the lab
