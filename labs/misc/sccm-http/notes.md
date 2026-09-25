@@ -1,16 +1,20 @@
 # misc: sccm-http
 
-_2026-09-24_
+_2026-09-25_
 
 ## setup
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
+- responder listening on the test vlan
+- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- rdp nla disabled on legacy box
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- sweep ipv6 for live hosts
+- try esc4 template misconfig
+- pull sccm http creds if time allows
+- write detection rule for the fp case
