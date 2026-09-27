@@ -1,16 +1,15 @@
 # ntlm: coercion-petitpotam
 
-_2026-09-25_
+_2026-09-27_
 
 ## setup
-- new vpnsplit setup for the lab
-- nmap scripts updated from master
+- proxychains + burp chained
+- kali vm snapshot rolled back
 
 ## findings
-- gpp leftovers on legacy OU
-- host header injection poisons cache
-- adcs template esc1 on WebServer
-- ldap anon bind still works
+- cert template allows enrollment for DA group
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- write detection rule for the fp case
+- ask IT about legacy OU cleanup
