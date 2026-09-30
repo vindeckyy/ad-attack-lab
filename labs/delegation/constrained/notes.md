@@ -3,14 +3,15 @@
 _2026-09-29_
 
 ## setup
-- responder listening on the test vlan
-- proxychains + burp chained
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
 
 ## findings
+- snmp community 'public' read-all
 - rdp nla disabled on legacy box
 - dns rebinding blocked at resolver
 - mssql linked server to dc
 - snmp community 'public' read-all
 
 ## next
-- try esc4 template misconfig
+- test coercion from workstation context
