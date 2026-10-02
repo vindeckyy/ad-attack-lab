@@ -1,18 +1,14 @@
 # delegation: rbcd
 
-_2026-10-01_
+_2026-10-02_
 
 ## setup
-- fresh windows server 2019 box in the lab
-- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
 - wsl network tweaks applied
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- kerberoastable: svc_backup, svc_sql
+- web01 leaks .env via backup dir
 
 ## next
-- retest after patch window
-- check for unconstrained delegation hosts
-- follow up on relay chain
+- sweep ipv6 for live hosts
