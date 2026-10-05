@@ -1,6 +1,6 @@
 # misc: sccm-http
 
-_2026-10-02_
+_2026-10-05_
 
 ## setup
 - proxychains + burp chained
