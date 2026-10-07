@@ -1,6 +1,6 @@
 # ntlm: spnego-wrap
 
-_2026-09-26_
+_2026-10-07_
 
 ## setup
 - new vpnsplit setup for the lab
