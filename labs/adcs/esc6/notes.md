@@ -1,6 +1,6 @@
 # adcs: esc6
 
-_2026-10-05_
+_2026-10-08_
 
 ## setup
 - proxychains + burp chained
