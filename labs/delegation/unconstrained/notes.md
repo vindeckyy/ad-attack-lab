@@ -1,14 +1,17 @@
 # delegation: unconstrained
 
-_2026-10-14_
+_2026-10-18_
 
 ## setup
+- mitm6 paired with ntlmrelayx
 - fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
 
 ## findings
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- retest after patch window
+- check for unconstrained delegation hosts
+- follow up on relay chain
