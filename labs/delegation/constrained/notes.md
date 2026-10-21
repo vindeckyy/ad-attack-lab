@@ -1,6 +1,6 @@
 # delegation: constrained
 
-_2026-10-20_
+_2026-10-21_
 
 ## setup
 - new vpnsplit setup for the lab
