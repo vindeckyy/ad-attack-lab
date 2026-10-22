@@ -1,6 +1,6 @@
 # acls: forcechangepw
 
-_2026-10-21_
+_2026-10-22_
 
 ## setup
 - nmap scripts updated from master
@@ -8,6 +8,8 @@ _2026-10-21_
 - proxychains + burp chained
 
 ## findings
+- wsus unsigned allowed
+- printers reachable from guest vlan
 - winrm open on workstations
 - ipv6 router advertisements unfiltered
 - wsus unsigned allowed
