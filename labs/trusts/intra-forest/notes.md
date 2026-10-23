@@ -1,15 +1,19 @@
 # trusts: intra-forest
 
-_2026-10-22_
+_2026-10-23_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
+- target: internal lab 10.0.20.0/24
+- f_proxy moved to 127.0.0.1:8080
+- wsl network tweaks applied
+- new vpnsplit setup for the lab
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- dns rebinding blocked at resolver
+- mssql linked server to dc
+- snmp community 'public' read-all
 
 ## next
-- pull sccm http creds if time allows
+- test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
