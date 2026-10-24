@@ -1,18 +1,16 @@
 # adcs: esc3
 
-_2026-10-23_
+_2026-10-24_
 
 ## setup
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 - f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
-- docker socket mounted in ci runner
-- cert template allows enrollment for DA group
-- kerberoastable: svc_backup, svc_sql
-- web01 leaks .env via backup dir
+- ipv6 router advertisements unfiltered
+- wsus unsigned allowed
 
 ## next
-- sweep ipv6 for live hosts
-- test coercion from workstation context
+- retest after patch window
+- check for unconstrained delegation hosts
