@@ -1,17 +1,18 @@
 # delegation: constrained
 
-_2026-10-23_
+_2026-10-24_
 
 ## setup
-- nmap scripts updated from master
-- responder listening on the test vlan
-- proxychains + burp chained
+- kali vm snapshot rolled back
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
+- target: internal lab 10.0.20.0/24
 
 ## findings
-- winrm open on workstations
-- ipv6 router advertisements unfiltered
-- wsus unsigned allowed
+- smb signing disabled on 3 hosts
+- as-rep roastable: 2 accounts
 
 ## next
-- pull sccm http creds if time allows
-- write detection rule for the fp case
+- follow up on relay chain
+- ask IT about legacy OU cleanup
+- try esc4 template misconfig
