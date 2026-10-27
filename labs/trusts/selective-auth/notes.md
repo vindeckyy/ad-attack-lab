@@ -1,6 +1,6 @@
 # trusts: selective-auth
 
-_2026-10-25_
+_2026-10-27_
 
 ## setup
 - responder listening on the test vlan
