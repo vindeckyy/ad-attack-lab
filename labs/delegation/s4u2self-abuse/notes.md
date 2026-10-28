@@ -1,21 +1,19 @@
 # delegation: s4u2self-abuse
 
-_2026-10-27_
+_2026-10-28_
 
 ## setup
+- mitm6 paired with ntlmrelayx
+- fresh windows server 2019 box in the lab
 - target: internal lab 10.0.20.0/24
-- f_proxy moved to 127.0.0.1:8080
-- wsl network tweaks applied
-- new vpnsplit setup for the lab
 
 ## findings
-- snmp community 'public' read-all
-- rdp nla disabled on legacy box
-- dns rebinding blocked at resolver
-- mssql linked server to dc
-- snmp community 'public' read-all
+- ldap anon bind still works
+- gpp leftovers on legacy OU
+- host header injection poisons cache
+- adcs template esc1 on WebServer
+- ldap anon bind still works
 
 ## next
-- test coercion from workstation context
-- retest after patch window
 - check for unconstrained delegation hosts
+- follow up on relay chain
